@@ -7,6 +7,8 @@ node {
         // sh gem install bundler
         // sh bundle install
         // sh bundle exec rake test
+
+        
         
     }
     stage ('Tests') {
