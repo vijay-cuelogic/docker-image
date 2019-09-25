@@ -6,8 +6,8 @@ node {
     stage ('Build') {
          sh 'ls'
          sh 'ruby -v'
-         sh 'gem install bundler'
-         sh 'bundle install'
+         sh 'sudo gem install bundler'
+         sh 'sudo bundle install'
         // sh bundle exec rake test
 
         
