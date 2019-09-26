@@ -4,8 +4,8 @@ node {
       checkout scm
     }
     stage ('Build') {
-         sh ' apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev'
          sh 'ruby -v'
+         sh 'ls'
          sh 'sudo gem install bundler'
          sh 'sudo bundle install'
         // sh bundle exec rake test
